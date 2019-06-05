@@ -54,15 +54,39 @@ table {
 
 
 
-* {
+html, body {
 	box-sizing: border-box;
-	/* font-size: 62.5%; */
 }
+
+@media (max-width: 800px){
+	body{
+		max-width: 800px;
+	} 
+}
+
+@media(max-width: 500px){
+	body{
+		max-width: 500px;
+	}
+}
+
+
 
 .navigation{
 	margin: 1rem;
 	height: 5rem;
 }
+
+@media (max-width: 800px){
+	.navigation{
+		height: 5rem;
+		width: 100%;
+		margin: 0;
+		background-color: black;
+	}
+}
+
+
 
 .linkBar{
 	display: flex;
@@ -71,12 +95,22 @@ table {
 	height: 100%;
 }
 
+
+
 a{
 	text-decoration: none;
 	color: blanchedalmond;
-	font-size: 4rem;
+	font-size: 3rem;
 	background-color: transparent;
 }
+
+@media (max-width: 800px){
+	a{
+		font-size: 2rem;
+	}
+}
+
+
 
 .info-page{
 	margin: 15% auto;
@@ -89,11 +123,21 @@ a{
 	border-radius: 40%;
 }
 
+@media (max-width: 800px){
+	.info-page{
+		width: 100%;
+	}
+}
+
+
+
 .login-info{
 	display: flex;
 	flex-direction: column;
 	width: 35%;
 }
+
+
 
 .info-page p{
 	font-family: cursive;
@@ -103,6 +147,19 @@ a{
 	width: 100%;
 	border-bottom: 2px dashed rgba(231, 148, 39, 0.363);
 }
+
+/* @media (max-width: 800px){ */
+		footer p{
+		display: flex;
+		margin-top: 15rem; 
+		align-content: flex-end;
+		color: white;
+		background-color: black;
+	}
+/* } */
+
+
+
 
 .info-page h2{
 	padding: 1rem;
@@ -117,15 +174,20 @@ a{
 	border-bottom-style: groove;
 }
 
+
+
 .access-text{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+
+
 input{
 	margin: .5rem;
 }
+
 
 
 .signup-info{

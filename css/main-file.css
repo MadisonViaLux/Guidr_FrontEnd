@@ -92,6 +92,16 @@ a{
 .login-info{
 	display: flex;
 	flex-direction: column;
+	width: 35%;
+}
+
+.info-page p{
+	font-family: cursive;
+	font-size: 1.2rem;
+	margin: 1.5rem;
+	padding-bottom: .5rem;
+	width: 100%;
+	border-bottom: 2px dashed rgba(231, 148, 39, 0.363);
 }
 
 .info-page h2{
@@ -100,18 +110,29 @@ a{
 	color: white;
 	border-radius: 38.5%;
 	font-size: 1.5rem;
+	border: .5rem yellowgreen;
+  border-top-style: groove;
+  border-left-style: none;
+  border-right-style: none;
+	border-bottom-style: groove;
 }
 
 .access-text{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
+}
+
+input{
+	margin: .5rem;
 }
 
 
-
-
+.signup-info{
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
 
 
 

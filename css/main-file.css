@@ -49,14 +49,17 @@ table {
 
 
 
-body{
-    background-image: url('https://unsplash.com/photos/toCqTyxsT4Q');
-}
 
 
 
 
-
+html { 
+    background: url('photos\robert-murray-118030-unsplash.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 
 

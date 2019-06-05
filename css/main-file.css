@@ -78,10 +78,36 @@ a{
 	background-color: transparent;
 }
 
+.info-page{
+	margin: 15% auto;
+	background-color: beige;
+	width: 60rem;
+	height: 30rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 40%;
+}
 
+.login-info{
+	display: flex;
+	flex-direction: column;
+}
 
+.info-page h2{
+	padding: 1rem;
+	background: darkslategray;
+	color: white;
+	border-radius: 38.5%;
+	font-size: 1.5rem;
+}
 
-
+.access-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
 
 
 

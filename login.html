@@ -5,13 +5,25 @@
 <head>
     <title>Guidr: Helping Guides find their way.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="./css/main-file.css"/> 
+
+    <style>
+    
+    html { 
+			background: url('photos/background-img.jpg') no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+    
+    </style>
+
+
 </head>
 
-
 <body>
-
-
     <header>
         <nav class='navigation'>
 
@@ -21,30 +33,57 @@
                 <a href='login.html'>Login/Sign Up</a>
             </div>
 
-            <!-- <div class='top-img'>
-                <img src="https://unsplash.com/photos/toCqTyxsT4Q" alt="Long pick of desert here.">
-            </div> -->
         </nav>
     </header>
 
 
 
-    <section>
+    <section class="info-page">
         <div class="login-info">
-            <h2>Login</h2>
-            <p>Have an account? Click here to login!</p>
-            <button href='main.html'>Log In</button>
-        </div>
-
-        <div class="sign-up-info">
-                <h2>Sign Up</h2>
-                <p>Click here to sign up and create your own account!</p>
-                <button href='main.html'>Sign Up</button>
+            <div class="access-text">
+                <h2>Log In</h2>
+                <p>Have an account? Welcome back explorer!</p> 
             </div>
 
+            <div class="email">
+                <input id="emailAddress" type="email" maxLength="64" 
+                    size="30" required placeholder="Your@gmail.com Here" 
+                    pattern=".+@gmail.com" title="Please only provide a Gmail address">
+            </div>
+                
+            <div class='password'>
+                <input type="password" id="pass" name="password"
+                    minlength="8" size="30" required 
+                    placeholder="Password">
+            </div>
+
+            <input type="submit" value="Log In" href='main.html'>
+        </div>
+
+
+
+
+        <div class="sign-up-info">
+            <div class="access-text">
+                <h2>Sign Up</h2>
+                <p>Click here to sign up and create your own account!</p>
+            </div>
+
+            <div class="email">
+                <input id="emailAddress" type="email" maxLength="64" 
+                    size="30" required placeholder="Your@gmail.com Here" 
+                    pattern=".+@gmail.com" title="Please only provide a Gmail address">
+            </div>
+                    
+            <div class='password'>
+                <input type="password" id="pass" name="password"
+                    minlength="8" size="30" required 
+                    placeholder="Password">
+            </div>
+    
+            <input type="submit" value="Log In" href='main.html'>
+        </div>
     </section>
-
-
 </body>
 
 

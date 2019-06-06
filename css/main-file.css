@@ -197,10 +197,44 @@ input{
 
 
 
+.inner-body{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
 
 
 
+.middle-chunk{
+	max-width: 700px;
+	margin: 8rem 0;
+	padding: 6rem;
+	border-radius: 20%;
+	background: white;
+}
 
 
+
+.side-words{
+	margin-top: 25rem;
+	display: flex;
+	justify-content: center;
+	height: 2rem;
+	width: 30%;
+	background-color: black;
+}
+
+
+
+.about-us{
+	color: white;
+	font-size: 2rem;
+}
+
+
+
+.logo-photo{
+	width: 80%;
+}
 
 

@@ -64,7 +64,7 @@ html, body {
 	} 
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
 	body{
 		max-width: 500px;
 	}
@@ -148,16 +148,16 @@ a{
 	border-bottom: 2px dashed rgba(231, 148, 39, 0.363);
 }
 
-/* @media (max-width: 800px){ */
-		footer p{
-		display: flex;
-		margin-top: 15rem; 
-		align-content: flex-end;
-		color: white;
-		background-color: black;
-	}
-/* } */
 
+
+footer p{
+	display: flex;
+	margin-top: 15rem; 
+	align-content: flex-end;
+	color: white;
+	background-color: black;
+	align-self: center;
+}
 
 
 

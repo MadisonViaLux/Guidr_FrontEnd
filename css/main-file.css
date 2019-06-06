@@ -70,7 +70,7 @@ html, body {
 	} 
 }
 
-@media(max-width: 600px){
+@media(max-width: 500px){
 	body{
 		max-width: 500px;
 	}
@@ -113,6 +113,12 @@ a{
 	}
 }
 
+@media(max-width: 600px){
+	a{
+		font-size: 1.5rem;
+	}
+}
+
 
 
 
@@ -137,9 +143,22 @@ a{
 	border-radius: 40%;
 }
 
-@media (max-width: 800px){
+@media(max-width: 800px){
 	.info-page{
+		flex-direction: column;
+		height: 100%;
 		width: 100%;
+		border-radius: 15%;
+	}
+
+	.email{
+		display: flex;
+		justify-content: center;
+	}
+
+	.password{
+		display: flex;
+		justify-content: center;
 	}
 }
 
@@ -314,12 +333,29 @@ h2{
 .profile-box{
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 	margin: 15rem auto;
+}
+
+@media(max-width: 1050px){
+	.profile-box{
+		flex-direction: column;
+		margin: 7rem;
+	}
 }
 
 
 .profile-0{
 	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media(max-width: 1050px){
+	.profile-0{
+		margin-bottom: 4rem;
+	}
 }
 
 
@@ -343,14 +379,29 @@ h3{
 
 .pro-text{
 	padding: 1rem;
+	width: 30rem;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	background-color: whitesmoke;
 	border-radius: 5%;
+}
+
+@media(max-width: 1340px){
+	.pro-text{
+		width: 20rem;
+	}
+}
+
+@media(max-width: 1050px){
+	.pro-text{
+		width: 25rem;
+	}
 }
 
 
 .adjusting-img{
 	display: flex;
 	justify-content: center;
+	margin: 1rem;
 }

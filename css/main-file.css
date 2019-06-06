@@ -196,9 +196,9 @@ footer p{
 	border-radius: 38.5%;
 	font-size: 1.5rem;
 	border: .5rem yellowgreen;
-  border-top-style: groove;
-  border-left-style: none;
-  border-right-style: none;
+    border-top-style: groove;
+    border-left-style: none;
+    border-right-style: none;
 	border-bottom-style: groove;
 }
 
@@ -256,12 +256,17 @@ input{
 	justify-content: center;
 	height: 2rem;
 	width: 30%;
-	background-color: black;
+	background-color: palegoldenrod;
+	border: .2rem;
+	border-top-style: groove;
+    border-left-style: none;
+    border-right-style: none;
+	border-bottom-style: groove;
 }
 
 
 .about-us{
-	color: white;
+	color: black;
 	font-size: 2rem;
 }
 

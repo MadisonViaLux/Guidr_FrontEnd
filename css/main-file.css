@@ -297,3 +297,60 @@ h2{
 	color: darkslategrey;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+/* portfolio page */
+
+
+
+.profile-box{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 15rem auto;
+}
+
+
+.profile-0{
+	width: 20%;
+}
+
+
+.pro-img-1{
+	height: 40rem;
+	border-radius: 5%;
+}
+
+
+.pro-img-2{
+	height: 20rem;
+	border-radius: 5%;
+}
+
+
+h3{
+	font-size: 3.5rem;
+	margin: 1rem;
+}
+
+
+.pro-text{
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	background-color: whitesmoke;
+	border-radius: 5%;
+}
+
+
+.adjusting-img{
+	display: flex;
+	justify-content: center;
+}

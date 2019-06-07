@@ -35,8 +35,6 @@ class DocLink{
     }
 
 }
-
-
 class DocItem{
     constructor(element){
         this.element = element;
@@ -49,13 +47,6 @@ class DocItem{
     }
 
 }
-
-
-
-
-
-
-
 
 
 

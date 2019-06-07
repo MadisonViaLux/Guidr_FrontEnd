@@ -246,7 +246,20 @@ input{
 	margin: 8rem 0;
 	padding: 6rem;
 	border-radius: 15%;
-	background: white;
+	background-color: white;
+}
+
+@media(max-width: 800px){
+	.middle-chunk{
+		margin: 4rem 2rem;
+		background-color: rgba(255, 255, 255, 0.884);
+	}
+}
+
+@media(max-width: 500px){
+	.middle-chunk{
+		background-color: rgba(255, 255, 255, 0.726);
+	}
 }
 
 
@@ -264,6 +277,12 @@ input{
 	border-bottom-style: groove;
 }
 
+@media(max-width: 930px){
+	.side-words{
+		display: none;
+	}
+}
+
 
 .about-us{
 	color: black;
@@ -271,20 +290,10 @@ input{
 }
 
 
-.words-top{
-	margin: 2rem;
-}
-
-
-.words-mid{
+.word-chunk{
 	margin: 2rem;
 	padding: 1rem;
-}
-
-
-.words-bottom{
-	margin: 2rem;
-	padding: 1rem;
+	width: 80%;
 }
 
 
@@ -306,6 +315,12 @@ h1{
 	color: gray;
 }
 
+@media(max-width: 500px){
+	h1{
+		color: black;
+	}
+}
+
 
 h2{
 	font-size: 1.7rem;
@@ -320,6 +335,19 @@ h2{
 	font-weight: bold;
 	color: darkslategrey;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width: 800px){
+	.main-text{
+		width: 25rem;
+		font-size: 1.2rem;
+	}
+}
+
+@media(max-width: 500px){
+	.main-text{
+		color: darkslategrey;
+	}
 }
 
 

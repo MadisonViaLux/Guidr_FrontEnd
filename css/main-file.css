@@ -451,13 +451,6 @@ h3{
 }
 
 
-.dropdown-content{
-	border: 2px dotted green;
-	display: flex;
-	flex-direction: column;
-}
-
-
 .dd-link{
 	color: darkgoldenrod;
 	border: 2px dotted green;
@@ -467,6 +460,26 @@ h3{
 }
 
 
-.hide-dropdown {
+/* .dropdown-content{
+	border: 2px dotted green;
+	display: flex;
+	flex-direction: column;
+} */
+
+
+/* .hide-dropdown {
     display: none;
-  }
+} */
+
+
+.dropdown-content{
+	display: none;
+}
+
+
+.display-block{
+	display: block;
+	border: 2px dotted green;
+	display: flex;
+	flex-direction: column;
+}

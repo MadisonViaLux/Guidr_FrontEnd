@@ -50,7 +50,7 @@ table {
 
 
 
-@import '../Javasvript/portfolio.js';
+@import './javasvript/portfolio.js';
 
 
 
@@ -467,6 +467,6 @@ h3{
 }
 
 
-.dropdown-hidden {
+.hide-dropdown {
     display: none;
   }
